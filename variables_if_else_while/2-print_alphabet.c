@@ -14,6 +14,6 @@ int main(void)
 	{
 		putchar(c);
 	}
-
+	gitchar('\n');
 	return (0);
 }
