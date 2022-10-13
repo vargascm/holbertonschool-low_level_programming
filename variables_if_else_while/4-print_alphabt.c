@@ -11,7 +11,7 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; ++c)
 	{
-		if (c == 'e' || c == 'q')
+		if (c == 'e' || c == 'q')   // Lo que hace continue es brindar un 3ra opcion a 0 y 1
 			continue;
 
 		putchar(c);
