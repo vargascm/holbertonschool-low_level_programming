@@ -1,6 +1,6 @@
 CC = gcc
-SRC = %.c
-OBJ = %.o
+SRC = school.c main.c
+OBJ = $(SRC:.c=.o)
 NAME = school
 RM = rm -f
 
