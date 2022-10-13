@@ -1,0 +1,7 @@
+# Create my first useful makefile
+NAME = school
+CC = gcc
+SRC = school.c main.c
+OBJ = $(patsubst %.c,%.o,$(SRC))
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
