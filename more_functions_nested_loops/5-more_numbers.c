@@ -1,7 +1,10 @@
 #include "main.h"
-/*
- * prints 10 times the numbers, from 0 to 14, followed by a new line.
- * Return: 0
+
+/**
+ * more_numbers - Print numbers
+ * n: Var 1
+ * k: Var 2
+ * Return: New Line
  */
 
 void more_numbers(void)
@@ -17,7 +20,7 @@ void more_numbers(void)
 				_putchar(k / 10 + '0');
 			}
 			_putchar(k % 10 + '0');
-		}	
+		}
 		_putchar('\n');
 	}
 }
