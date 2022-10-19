@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * rev_string - Write a function that reverses a string
- * @s: data
+ * _strlen - returns the length of a string.
+ * @s: Pointer to string to measure
+ * Return: Lenght of the string
  */
+
 void print_rev(char *s)
 {
 	int i, c = 0;
