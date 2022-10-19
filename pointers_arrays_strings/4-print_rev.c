@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
- * _strlen - returns the length of a string.
- * @s: Pointer to string to measure
- * Return: Lenght of the string
+ * print_rev - reverses a string.
+ * @s: Pointer to string to reverse
+ * Return: Always 0
  */
 
 void print_rev(char *s)
